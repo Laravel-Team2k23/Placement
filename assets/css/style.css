@@ -1061,9 +1061,7 @@ section {
   padding-top: 40px;
 }
 
-.portfolio-details .major{
 
-}
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
@@ -1124,6 +1122,74 @@ section {
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
+
+
+/*--------------------------------------------------------------
+# statistics
+--------------------------------------------------------------*/
+.statistics-details {
+  padding-top: 0%;
+
+}
+.statistics-details .wrap {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.statistics-details .h1{
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  padding: .5em 0;
+  margin-bottom: 3em;
+  border-bottom: #212121 ;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.statistics-details .bar span:nth-child(2){
+  background: #02b053;
+  width: 0;
+  margin: .25em 0;
+  color: #fff;
+  position: relative;
+  transition: width 2s, background .2s;
+  -webkit-transform: translate3d(0,0,0);
+  clear: both;
+}
+
+.statistics-details .bar:nth-of-type(1) span:nth-child(2){
+  width: 10%;
+  animation-delay: 0;
+}
+
+.statistics-details .bar:nth-of-type(odd){
+  background: #92f58b;
+}
+
+.statistics-details .bar .label{
+  font-size: .753m;
+  padding: 1em;
+  background: #ffbb2c;
+  width: 7em;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  font-weight: bold;
+}
+
+.statistics-details .bar .label .second{
+  background: #ffd034;
+}
+.statistics-details .count { 
+  position: absolute;
+  right: .25em;
+  top: .75em;
+  padding: .15em;
+  font-size: .75em;
+  font-weight: bold;
+}
+
+
 
 /*--------------------------------------------------------------
 # Team
