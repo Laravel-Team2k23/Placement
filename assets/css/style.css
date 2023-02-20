@@ -1677,3 +1677,7 @@ height: 50%;
 #footer .credits {
   font-size: 13px;
 }
+.progress-bar {
+  -webkit-transition: none !important;
+  transition: none !important;
+}
