@@ -1055,7 +1055,7 @@ section {
   padding-top: 40px;
 }
 
-.portfolio-details .portfolio-details-slider {
+.portfolio-details .portfolio-details-slider .swiper-slide {
   width: 100%;
 }
 
@@ -1065,6 +1065,7 @@ section {
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
+  width: 100%;
   position: relative;
 }
 
@@ -1081,7 +1082,7 @@ section {
 }
 
 .portfolio-details .portfolio-info {
-  padding: 30px;
+  padding: 40px;
   margin-left: 30px;
   box-shadow: 0px 0 30px rgba(34, 34, 34, 0.08);
 }
@@ -1097,7 +1098,7 @@ section {
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
-  margin-left: 19%;
+  margin-left: 0;
   align-items: center;
   font-size: 15px;
 }
