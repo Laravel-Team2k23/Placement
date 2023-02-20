@@ -1055,6 +1055,9 @@ section {
   padding-top: 40px;
 }
 
+.portfolio-details .portfolio-details-slider {
+  width: 100%;
+}
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
@@ -1152,6 +1155,9 @@ height: 50%;
   z-index: -1;
   height: 100%;
   width: 100%;
+  transform: scaleX(0);
+	transform-origin: left ;
+	animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
 
 .statistics-details article.tall div span:nth-child(2) {
@@ -1163,6 +1169,15 @@ height: 50%;
   z-index: -1;
   height: 100%;
   position: absolute;
+  transform: scaleX(0);
+	transform-origin: left ;
+	animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+@keyframes animate{
+	100%{
+		transform: scaleX(1);
+	}
 }
 
 .statistics-details article.tall div:nth-child(1) span:nth-child(2) {
