@@ -1,9 +1,3 @@
-/**
-* Template Name: Green - v4.10.0
-* Template URL: https://bootstrapmade.com/green-free-one-page-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -1266,7 +1260,11 @@ height: 50%;
   }
 }
 
-
+.statistics-details {
+ padding-left: 10px;
+  text-align: left;
+ font-size: medium;
+}
 
 /* .statistics-details .wrap {
   width: 75%;
